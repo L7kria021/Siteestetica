@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Veridia Aesthetics — Luminous Renewal</title>
+<meta name="description" content="Next-generation sub-ablative cold laser engineered for deep dermal remodeling without downtime.">
+<meta name="theme-color" content="#e6c9c0">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%278%27 fill=%27%233d2440%27/%3E%3Cpath d=%27M8 7c6 4 6 14 0 18M24 7c-6 4-6 14 0 18%27 fill=%27none%27 stroke=%27%23fff%27 stroke-width=%271.6%27/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Lato:wght@400;700&family=Manrope:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>
+  document.documentElement.classList.add("js");
+  /* Foto ausente: remove o <img> e marca o slot pra mostrar o prompt (data-size / data-prompt) */
+  function slotEmpty(img) { img.parentElement.classList.add("is-empty"); img.remove(); }
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header" id="top">
+  <div class="site-header__inner">
+    <a class="logo" href="#top" aria-label="Veridia Aesthetics — home">
+      <svg class="logo__mark" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true">
+        <path d="M4 3c5 3 5 19 0 22M24 3c-5 3-5 19 0 22M9 5c3 4 7 14 10 18M19 5c-3 4-7 14-10 18"/>
+      </svg>
+      <span class="logo__text">VERIDIA<small>AESTHETICS</small></span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <div class="site-header__menu" id="menu">
+      <nav class="nav" aria-label="Main">
+        <a href="#technologies">Technologies</a>
+        <a href="#patients">For Patients</a>
+        <a href="#clinicians">For Clinicians</a>
+        <a href="#trials">Clinical Trials</a>
+        <a href="#about">About Us</a>
+      </nav>
+      <a class="btn-consult" href="#consultation">CONSULTATION</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <!-- ============ HERO ============ -->
+  <section class="hero" aria-labelledby="hero-title">
+    <!-- Fundo: reaproveita a mesma foto do slot "rosto", desfocada via CSS -->
+    <div class="hero__bg" aria-hidden="true"><img src="assets/rosto.jpg" alt="" onerror="this.remove()"></div>
+
+    <div class="hero__inner">
+      <p class="callout callout--left">Multimodal<br>wavelength delivery</p>
+      <p class="callout callout--right">Safe for all Fitzpatrick<br>skin phototypes</p>
+
+      <figure class="frame">
+        <div class="frame__photo slot"
+             data-size="assets/rosto.jpg · 1600 × 1480 px (quase quadrada)"
+             data-prompt="Retrato em close de uma mulher de pele luminosa e natural, rosto levemente inclinado, olhando para a câmera, segurando uma rosa rosa-pálido junto à bochecha direita. Fundo suave rosa/pêssego, luz de estúdio difusa, estilo editorial de beleza. Rosto centralizado, rosa no lado direito da imagem.">
+          <img src="assets/rosto.jpg" alt="Woman with luminous skin holding a pink rose" width="1600" height="1480" onerror="slotEmpty(this)">
+        </div>
+        <a class="discover" href="#technologies">DISCOVER</a>
+      </figure>
+
+      <div class="intro">
+        <p class="intro__text">Next-generation sub-ablative cold laser<br>engineered for deep dermal remodeling<br>without downtime</p>
+        <div class="pills">
+          <a href="#patients">FOR PATIENTS</a>
+          <a href="#clinicians">FOR CLINICIANS</a>
+        </div>
+        <p class="intro__specs">Clinical Technology &amp;<br>Multi-Modal Specs</p>
+      </div>
+
+      <h1 class="title" id="hero-title">LUMINOUS<br>RENEWAL</h1>
+    </div>
+
+    <div class="hero__flower slot slot--mini"
+         data-size="assets/flor.png · 800 × 800 px · PNG transparente"
+         data-prompt="Rosa/camélia rosa-clara fotografada de cima, pétalas bem definidas, recortada com fundo transparente. Enquadrada para ficar cortada no canto inferior esquerdo.">
+      <img src="assets/flor.png" alt="" aria-hidden="true" width="800" height="800" onerror="slotEmpty(this)">
+    </div>
+  </section>
+
+  <!-- ============ SEÇÃO 2 ============ -->
+  <section class="s2" id="technologies" aria-labelledby="s2-title">
+    <h2 class="sr-only" id="s2-title">Our services, treatments and memberships</h2>
+
+    <div class="s2__flower s2__flower--tl slot slot--mini"
+         data-size="assets/flores-sup-esq.png · 400 × 400 px · PNG transparente"
+         data-prompt="Flor branca e lilás com algumas folhas, recortada com fundo transparente, parcialmente cortada no canto superior esquerdo.">
+      <img src="assets/flores-sup-esq.png" alt="" aria-hidden="true" width="400" height="400" onerror="slotEmpty(this)">
+    </div>
+    <div class="s2__flower s2__flower--tr slot slot--mini"
+         data-size="assets/flores-sup-dir.png · 800 × 560 px · PNG transparente"
+         data-prompt="Orquídea branca com toques lilás e folhas verdes alongadas, recortada com fundo transparente, saindo do canto superior direito.">
+      <img src="assets/flores-sup-dir.png" alt="" aria-hidden="true" width="800" height="560" onerror="slotEmpty(this)">
+    </div>
+    <div class="s2__flower s2__flower--bl slot slot--mini"
+         data-size="assets/flores-inf-esq.png · 640 × 690 px · PNG transparente"
+         data-prompt="Lírio branco com flores lilás e folhas finas e verdes, recortado com fundo transparente, saindo do canto inferior esquerdo.">
+      <img src="assets/flores-inf-esq.png" alt="" aria-hidden="true" width="640" height="690" onerror="slotEmpty(this)">
+    </div>
+    <div class="s2__flower s2__flower--br slot slot--mini"
+         data-size="assets/flores-inf-dir.png · 800 × 530 px · PNG transparente"
+         data-prompt="Sementes e pequenas flores douradas/âmbar, com algumas folhas, recortadas com fundo transparente, saindo do canto inferior direito.">
+      <img src="assets/flores-inf-dir.png" alt="" aria-hidden="true" width="800" height="530" onerror="slotEmpty(this)">
+    </div>
+
+    <div class="container">
+      <div class="s2__grid s2__grid--intro">
+        <article class="s2__intro reveal">
+          <svg class="s2__icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" aria-hidden="true"><path d="M4 14 16 5l12 9v13H4zM12 27v-8h8v8M16 5v-2M9 17h2M21 17h2"/></svg>
+          <h3>Services</h3>
+          <p>Relax and restore with treatments designed for your body and mind. Book a visit and feel the difference.</p>
+        </article>
+        <article class="s2__intro reveal">
+          <svg class="s2__icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" aria-hidden="true"><path d="M16 3c5 6 8 10 8 14a8 8 0 0 1-16 0c0-4 3-8 8-14zM13 18c0 2 1.5 3.5 3.5 3.5"/></svg>
+          <h3>Treatments</h3>
+          <p>Relax and restore with treatments designed for your body and mind. Book a visit and feel the difference.</p>
+        </article>
+        <article class="s2__intro reveal">
+          <svg class="s2__icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" aria-hidden="true"><circle cx="16" cy="16" r="12.5"/><path d="M9 23c0-9 6-13 14-13 0 8-4 14-12 14M9 23l9-9"/></svg>
+          <h3>Memberships</h3>
+          <p>Relax and restore with treatments designed for your body and mind. Book a visit and feel the difference.</p>
+        </article>
+      </div>
+
+      <div class="s2__grid s2__grid--cards">
+        <article class="card reveal">
+          <div class="card__photo card__photo--1 slot"
+               data-size="assets/servicos.jpg · 1200 × 940 px"
+               data-prompt="Massagem nas costas: mãos de massagista sobre as costas de uma mulher deitada, toalha branca, ambiente de spa claro e limpo com uma planta desfocada ao fundo, luz natural suave, tons neutros e quentes.">
+            <img src="assets/servicos.jpg" alt="Therapist giving a back massage under a white towel" width="1200" height="940" loading="lazy" onerror="slotEmpty(this)">
+          </div>
+          <h3>Services</h3>
+          <p>Relax and restore with treatments designed for your body and mind. Book a visit and feel the difference.</p>
+          <a class="card__btn" href="#consultation">Learn More</a>
+        </article>
+        <article class="card reveal">
+          <div class="card__photo card__photo--2 slot"
+               data-size="assets/tratamentos.jpg · 1200 × 940 px"
+               data-prompt="Close de mãos massageando o ombro e as costas de uma mulher de cabelo escuro, luz quente e suave, fundo marrom-escuro desfocado, pele hidratada e brilhante, clima relaxante.">
+            <img src="assets/tratamentos.jpg" alt="Hands massaging a woman's back with oil" width="1200" height="940" loading="lazy" onerror="slotEmpty(this)">
+          </div>
+          <h3>Treatments</h3>
+          <p>Relax and restore with treatments designed for your body and mind. Book a visit and feel the difference.</p>
+          <a class="card__btn" href="#consultation">Learn More</a>
+        </article>
+        <article class="card reveal">
+          <div class="card__photo card__photo--3 slot"
+               data-size="assets/planos.jpg · 1200 × 940 px"
+               data-prompt="Mulher sorrindo, ombros à mostra e toalha branca no corpo, mão tocando o ombro, janela luminosa e desfocada ao fundo, luz natural suave, pele radiante.">
+            <img src="assets/planos.jpg" alt="Therapist massaging a client's shoulders over a towel" width="1200" height="940" loading="lazy" onerror="slotEmpty(this)">
+          </div>
+          <h3>Memberships</h3>
+          <p>Relax and restore with treatments designed for your body and mind. Book a visit and feel the difference.</p>
+          <a class="card__btn" href="#consultation">Learn More</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SEÇÃO 3 ============ -->
+  <section class="s3" id="patients" aria-labelledby="s3-title">
+    <div class="container container--wide">
+      <h2 class="s3__title" id="s3-title">Our Best Sellers</h2>
+      <div class="s3__grid">
+        <a class="product reveal" href="#consultation">
+          <div class="product__photo slot"
+               data-size="assets/produto-1.jpg · 1200 × 1114 px"
+               data-prompt="Kit de skincare: um pote branco baixo e um frasco com bomba, rótulos minimalistas, sobre um pedestal de madeira nogueira. Fundo rosa-claro em degradê, luz de estúdio suave, produtos centralizados e um pouco abaixo do meio.">
+            <img src="assets/produto-1.jpg" alt="Cream jar and pump bottle on a wooden stand" width="1200" height="1114" loading="lazy" onerror="slotEmpty(this)">
+          </div>
+          <div class="product__stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+          <h3>The Glow Revival Set</h3>
+          <p class="product__desc">Hydrate + Brighten for Dewy, Radiant Skin</p>
+          <p class="product__price">$89.00</p>
+        </a>
+        <a class="product reveal" href="#consultation">
+          <div class="product__photo slot"
+               data-size="assets/produto-2.jpg · 1200 × 1114 px"
+               data-prompt="Sistema anti-acne: um pote largo de creme, um frasco alto com conta-gotas e bomba, rótulos minimalistas brancos, sobre um pedestal de madeira nogueira. Fundo rosa-claro em degradê, luz de estúdio suave.">
+            <img src="assets/produto-2.jpg" alt="Green box, bottle and jar on a wooden stand" width="1200" height="1114" loading="lazy" onerror="slotEmpty(this)">
+          </div>
+          <div class="product__stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+          <h3>Blemish Rescue System</h3>
+          <p class="product__desc">Clear Breakouts &amp; Soothe Angry Skin</p>
+          <p class="product__price">$73.00</p>
+        </a>
+        <a class="product reveal" href="#consultation">
+          <div class="product__photo slot"
+               data-size="assets/produto-3.jpg · 1200 × 1114 px"
+               data-prompt="Kit de tratamento noturno: caixa verde-menta de embalagem, frasco branco e um pote pequeno, sobre um pedestal de madeira nogueira. Fundo rosa-claro em degradê, luz de estúdio suave.">
+            <img src="assets/produto-3.jpg" alt="Mint box, pump bottle and jar on a wooden stand" width="1200" height="1114" loading="lazy" onerror="slotEmpty(this)">
+          </div>
+          <div class="product__stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+          <h3>Age-Defy Overnight Kit</h3>
+          <p class="product__desc">Wake Up to Firmer, Plumper Skin</p>
+          <p class="product__price">$77.00</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SEÇÃO 4 ============ -->
+  <section class="s4" id="clinicians" aria-labelledby="s4-title">
+    <div class="banner slot"
+         data-size="assets/clinica.jpg · 2400 × 852 px (panorâmica 2,8:1)"
+         data-prompt="Recepção de clínica de estética de luxo em tons bege e creme: balcão em pedra clara ao fundo com um letreiro na parede, cortinas, vasos de flores, duas poltronas de bouclé à direita, árvore/folhagem escura à esquerda. Luz quente e suave. Deixe o lado esquerdo mais calmo e escuro, pois o texto fica sobre ele.">
+      <img class="banner__img" src="assets/clinica.jpg" alt="Warm-lit clinic reception with marble desk and lounge seating" width="2400" height="852" loading="lazy" onerror="slotEmpty(this)">
+      <div class="banner__content">
+        <p class="banner__eyebrow">BEAUTY. CONFIDENCE. YOU.</p>
+        <h2 class="banner__title" id="s4-title">CONFIDENCE<br>STARTS<br>WITH YOU.</h2>
+        <span class="banner__rule"></span>
+        <a class="banner__btn" href="#consultation">BOOK YOUR CONSULTATION <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+
+    <ul class="feats" id="trials">
+      <li class="feat">
+        <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 3.5 6 7v8c0 6.5 4.2 11 10 13.5 5.8-2.5 10-7 10-13.5V7zM11.5 15.5l3.5 3.5 6-6.5"/></svg>
+        <span>CERTIFIED<br>PROFESSIONALS</span>
+      </li>
+      <li class="feat">
+        <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 26C5 13 13 6 27 5c0 13-6 21-18 21M6 26l11-11"/></svg>
+        <span>ADVANCED<br>TECHNOLOGY</span>
+      </li>
+      <li class="feat">
+        <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round" aria-hidden="true"><path d="m16 4 3.6 8.2 8.9.8-6.7 5.9 2 8.7L16 23l-7.8 4.6 2-8.7-6.7-5.9 8.9-.8z"/></svg>
+        <span>PERSONALIZED<br>CARE</span>
+      </li>
+      <li class="feat">
+        <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round" aria-hidden="true"><path d="M16 27C6 20 4 14.5 4 11a6.5 6.5 0 0 1 12-3.2A6.5 6.5 0 0 1 28 11c0 3.5-2 9-12 16z"/></svg>
+        <span>NATURAL<br>RESULTS</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ============ CONSULTATION ============ -->
+  <section class="s5" id="consultation" aria-labelledby="s5-title">
+    <div class="container container--narrow">
+      <h2 id="s5-title">Book your consultation</h2>
+      <p class="s5__lead">Tell us a little about you and we will get back to you.</p>
+      <form class="form" novalidate>
+        <div class="form__row">
+          <label>Name<input type="text" name="name" autocomplete="name" required></label>
+          <label>Phone<input type="tel" name="phone" autocomplete="tel" required></label>
+        </div>
+        <label>Email<input type="email" name="email" autocomplete="email" required></label>
+        <label>Message<textarea name="message" rows="4"></textarea></label>
+        <button class="form__btn" type="submit">REQUEST CONSULTATION</button>
+        <p class="form__status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer" id="about">
+  <div class="footer__inner">
+    <a class="logo" href="#top" aria-label="Veridia Aesthetics — back to top">
+      <svg class="logo__mark" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true"><path d="M4 3c5 3 5 19 0 22M24 3c-5 3-5 19 0 22M9 5c3 4 7 14 10 18M19 5c-3 4-7 14-10 18"/></svg>
+      <span class="logo__text">VERIDIA<small>AESTHETICS</small></span>
+    </a>
+    <nav class="footer__nav" aria-label="Footer">
+      <a href="#technologies">Technologies</a>
+      <a href="#patients">For Patients</a>
+      <a href="#clinicians">For Clinicians</a>
+      <a href="#trials">Clinical Trials</a>
+      <a href="#consultation">Consultation</a>
+    </nav>
+    <p class="footer__copy">© <span id="year">2026</span> Veridia Aesthetics. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
